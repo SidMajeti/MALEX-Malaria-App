@@ -99,7 +99,7 @@ public class TensorHelper {
 
         Log.d(TAG, "Prediction was " + message);
 
-        return LABELS[maxI];
+        return message;
 
     }
 
